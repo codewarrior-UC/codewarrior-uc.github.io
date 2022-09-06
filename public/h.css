@@ -1,0 +1,328 @@
+@media only screen and (max-width: 768px) {
+   .section-1 .row70 .pageheader .section-head h1{ 
+  
+        font-size:30px !important;  
+   }
+   }
+
+
+   .row::after {
+               content: "";
+               clear: both;
+               display: inline;
+           }
+   
+           h1 {
+               text-align: center;
+           }
+   
+           [class*="col-"] {
+               float: left;
+               padding: 15px;
+           }
+   
+       
+   
+           /* For desktop: */
+           .col-1 {
+               width: 118.33%;
+           }
+   
+           .col-2 {
+               width: 16.66%;
+           }
+   
+           .col-3 {
+               width: 25%;
+           }
+   
+           .col-4 {
+               width: 33.33%;
+           }
+   
+           .col-5 {
+               width: 41.66%;
+           }
+   
+           .col-6 {
+               width: 50%;
+           }
+   
+           .col-7 {
+               width: 58.33%;
+           }
+   
+           .col-8 {
+               width: 66.66%;
+           }
+   
+           .col-9 {
+               width: 75%;
+           }
+   
+           .col-10 {
+               width: 83.33%;
+           }
+   
+           .col-11 {
+               width: 91.66%;
+           }
+   
+           .col-12 {
+               width: 100%;
+           }
+   
+   
+   
+           .main {
+               /* border: 1px solid; */
+             /*  height: 595px;*/
+               margin-top: 20px;
+               display: flex;
+           }
+   
+       
+           .section- {
+               margin-bottom: 30px;
+           }
+          
+           @media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px !important;
+    }
+   
+               /* For mobile phones: */
+               [class*="main"] {
+                   width: 100%;
+                   /* height: 300px; */
+   
+               }
+               .main.newsctionimg {
+       margin-left: 0px !important; 
+       margin-right: 0px !important;
+   }
+   
+               [class*="col-"] {
+                   width: 100%;
+   
+               }
+               .h4border {
+               width: 100%;
+               }
+               .pageblock#fullscreen .slidercont {
+     
+       left: 0% !important;
+   top:0px
+     
+   }
+           }
+   
+           .section-head {
+               text-align: center;
+               padding-top: 20px;
+           }
+   
+   
+           .fa-solid {
+               color: green;
+           }
+   
+           .col-4 li {
+               padding-top: 5px;
+           }
+   
+           input[type=text] {
+           padding: 12px 20px;
+           box-sizing: border-box;
+           border: none;
+           border-bottom: 2px solid grey;
+           text-align: center;
+           font-size: 18px;
+           margin: auto;
+           width: 50% !important;
+          
+   }
+   
+           .section-lastpara {
+               line-height: 1.5;
+               font-size: 18px;
+               padding: 0 15% 0 15%;
+               text-align: center;
+           }
+          
+           #res_comm #comm, #res_comm #resd1 {
+       margin-top: 0px !important;
+   }
+   form {
+       text-align: center;
+   }
+   h2.downs {
+       font-size: 28px !important;
+       margin-left: 50px;
+       text-align: center;
+   }
+   
+   .main.newsctionimg {
+       margin-left: 100px;
+       margin-right: 100px;
+   }
+   
+   .slider .slidercont h2{
+       font-size: 100px;
+   }
+   .slider .slidercont p {
+       margin-bottom: 20px !important;
+   }
+   .slider .slidercont h2 {
+       margin-bottom: 20px;
+   }
+   a.btn-slide.getaquote {
+       padding: 10px;
+   }
+   .heeding_prodimg {
+       font-weight: bold;
+   }
+   ul.bullet-bird {
+       justify-content: center;
+       margin: auto;
+   }
+   div#gallerynew {
+       margin-bottom: 100px;
+       margin-top: 100px;
+   }
+   .btn-dwn {
+       background-color: #ffb051;
+       margin-top: 100px;
+   border: #ffb051;
+   color: #fff;
+       font-size: 20px;
+   }
+   .section-2{
+   height: 50%;
+   }
+   
+    /* The Modal (background) */
+       .newslattermodal {
+         display: none; /* Hidden by default */
+         position: fixed; /* Stay in place */
+         z-index: 99999999; /* Sit on top */
+         padding-top: 100px; /* Location of the box */
+         left: 0;
+         top: 0;
+         width: 100%; /* Full width */
+         height: 100%; /* Full height */
+         overflow: auto; /* Enable scroll if needed */
+         background-color: rgb(0,0,0); /* Fallback color */
+         background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+       }
+       
+       /* Modal Content */
+       .newslatter-modal-content {
+         background-color: #fefefe;
+         margin: auto;
+         padding: 20px;
+         border: 1px solid #888;
+         width: 80%;
+       }
+       
+       /* The Close Button */
+       .close {
+         color: #aaaaaa;
+         float: right;
+         font-size: 28px;
+         font-weight: bold;
+       }
+       
+       .close:hover,
+       .close:focus {
+         color: #000;
+         text-decoration: none;
+         cursor: pointer;
+       }
+       button, input {
+       overflow: visible;
+   }
+   .form-control {
+       display: block;
+       text-align: center;
+       width: 100%;
+       padding: 0.375rem 0.75rem;
+       font-size: 1rem;
+       line-height: 1.5;
+       color: #495057;
+       background-color: #fff;
+       background-clip: padding-box;
+       border: 1px solid #161a1f;
+       border-radius: 0.25rem;
+       transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   }
+   
+   .container {
+       background: #fff;
+       border-radius: 10px;
+       /* box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1); */
+   }
+   
+   .carousel-inner {
+       border-radius: 0 10px 10px 0;
+   }
+   
+   .carousel-caption {
+       text-align: left;
+       left: 5%;
+   }
+   
+   .login-sec {
+       padding: 50px 30px;
+       position: relative;
+   }
+   
+   .login-sec .copy-text {
+     
+       width: 100%;
+       bottom: 20px;
+       font-size: 13px;
+       text-align: center;
+   }
+   
+   
+   .login-sec h2 {
+       margin-bottom: 30px;
+       white-space:nowrap;
+       font-weight: 800;
+       color: #000;
+       font-size: 46px !important;
+       text-align: center;
+   
+   }
+   
+   .btn-login {
+       background-color: #ffb051;
+       border: #ffb051;
+       color: #fff;
+       font-size: 26px;
+       padding: 8px;
+       margin-top: 30px;
+       width: 200px;
+   
+   }
+   .banner-text {
+       width: 70%;
+       position: absolute;
+       bottom: 40px;
+       padding-left: 20px;
+   }
+   
+   .banner-text h2 {
+       color: #fff;
+       font-weight: 600;
+   }
+   
+   .banner-text p {
+       color: #fff;
+   }
+   div#dvMessage {
+       color: red;
+       font-size: 22px;
+       margin: 20px;
+   }

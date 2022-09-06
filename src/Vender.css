@@ -1,0 +1,14 @@
+.section-heading{
+    padding: 41px 63px 25px 34px;
+}
+
+
+#vendertables{
+padding: 20px 30px;
+}
+.section{
+    min-height: 100vh;
+}
+#offmenu{
+    transition: none;
+}

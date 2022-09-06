@@ -1,0 +1,57 @@
+#modalcol{
+    background-color:  #fff;
+    padding :0px;
+    color: black;
+
+}
+#menubars{
+    left: 20%;
+}
+.section-heading{
+    padding: 25px 25px;
+    color: black;
+}
+
+.col-md-6{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#mod{
+    background-color:  #fff;
+    padding-right: 55px;
+    color: black;
+    margin-left: 20px;;
+}
+
+#headr{
+    color: #5e1a1a;
+}
+.form-control{
+    color:black;
+    border: 1px solid rgb(21 19 19);
+}
+
+#ddlVender{
+    height: 40px;
+    /* margin-left: 50px; */
+}
+#hfOrderid{
+    margin-left: 50px;
+}
+#asignmodal{
+    height: 300px;
+}
+#asignmod{
+width: 630px;
+height: 350px;
+}
+#asignmodal{
+    width: 630px;
+    height: 330px;
+    padding: 70px 10px 50px 100px;
+}
+
+.col-md-6 inputasign{
+    padding-left:100px ;
+}

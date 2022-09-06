@@ -1,0 +1,105 @@
+table {
+    border-collapse: separate;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 75%;
+  /* 
+    margin-left: 418px !important; */
+  
+    color: white;
+    text-align: center;
+    border:solid black 1px;
+    border-radius: 25px;
+    border-width: 0.25px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+  }
+  
+  table thead tr {
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
+  
+  table th, table td {
+    padding: 12px 15px;
+  }
+  
+  table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  /*table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+    color: black;
+  }*/
+  
+  table tbody tr:last-of-type {
+    border-bottom: 2px solid white;
+  }
+  
+  table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+  
+  img {
+    width: 1.5rem;
+  }
+  
+  .pagination {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+  }
+  
+  .page {
+    padding: 0.5rem;
+  }#globalFilter {
+    text-align: center;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}div header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    }
+    
+    h1 {
+        color: white;
+        font-family: 'Carrois Gothic SC', sans-serif;
+        text-align: center
+    }
+    
+
+    #mod{
+      height: 610px;
+      width: 632px;
+    }
+    #modalcol{
+      height: 510px;
+      width: 630px;
+    }
+    .section-heading{
+      padding: 10px 60px 18px 30px;
+    }
+/* 
+    #Modalss{
+      left:5%
+    } */
+    #menubars{
+      left: 10%;
+  }
+  .modal-content{
+    width: 631px;
+  }

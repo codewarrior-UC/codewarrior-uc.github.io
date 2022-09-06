@@ -1,0 +1,65 @@
+table {
+  border-collapse: separate!important;
+  margin: auto!important;
+  font-size: 0.9em!important;
+  font-family: sans-serif!important;
+  min-width: 400px!important;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 75%!important;
+/* 
+  margin-left: 418px !important; */
+
+  color: white!important;
+  text-align: center!important;
+  border:solid black 1px!important;
+  border-radius: 25px!important;
+  border-width: 0.25px!important;
+  font-family: 'Carrois Gothic SC', sans-serif!important;
+}
+
+table thead tr {
+  background-color: white!important;
+  color: black!important;
+  text-align: center!important;
+}
+
+table th, table td {
+  padding: 12px 15px!important;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #dddddd!important;
+}
+
+/* table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3!important;
+  color: black!important;
+} */
+
+table tbody tr:last-of-type {
+  border-bottom: 2px solid white!important;
+}
+
+table tbody tr.active-row {
+  font-weight: bold!important;
+  color: #009879!important;
+}
+
+img {
+  width: 1.5rem!important;
+}
+
+.pagination {
+  font-family: 'Carrois Gothic SC', sans-serif !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  width: 50% !important;
+  margin: auto!important;
+  text-align: center!important;
+  padding: 0.5rem!important;
+  color: white!important;
+}
+
+.page {
+  padding: 0.5rem;
+}
